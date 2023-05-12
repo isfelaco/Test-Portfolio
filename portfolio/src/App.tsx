@@ -1,9 +1,10 @@
+import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
 
-function App() {
+export function App() {
 	return (
 		<div className="App">
 			<BrowserRouter basename="/Test-Portfolio">
@@ -19,5 +20,3 @@ function App() {
 		</div>
 	);
 }
-
-export default App;
