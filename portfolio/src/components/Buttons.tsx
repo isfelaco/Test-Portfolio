@@ -44,11 +44,7 @@ type ButtonProps = {
 export function Button({ style, to, text, float }: ButtonProps) {
 	return (
 		<div>
-			<Link
-				to={to}
-				target={style === "white" ? "_self" : "_blank"}
-				rel="noreferrer"
-			>
+			<Link to={to}>
 				{style === "white" ? (
 					<WhiteButton float={float}>{text}</WhiteButton>
 				) : (

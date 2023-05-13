@@ -62,7 +62,6 @@ export function Section(props: Props) {
 	const { title, children } = props;
 	var backIndex: number = 0;
 	var forwardIndex: number = 0;
-	console.log(window.location.pathname);
 	Object.keys(pages).find((route, i) => {
 		if ("/Test-Portfolio" + route === window.location.pathname) {
 			backIndex = i - 1;
