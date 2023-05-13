@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/Test-Portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/Test-Portfolio/static/js/main.753ab4ef.js",
+    "main.css": "/Test-Portfolio/static/css/main.7113151a.css",
+    "main.js": "/Test-Portfolio/static/js/main.7e14015f.js",
+    "static/media/SpaceGrotesk.ttf": "/Test-Portfolio/static/media/SpaceGrotesk.1036357b9651eff7d3dd.ttf",
+    "static/media/UVA-logo.png": "/Test-Portfolio/static/media/UVA-logo.92c62d61e8c363cc4c21.png",
+    "static/media/background.avif": "/Test-Portfolio/static/media/background.a319203cee4344e352f3.avif",
     "index.html": "/Test-Portfolio/index.html",
-    "main.073c9b0a.css.map": "/Test-Portfolio/static/css/main.073c9b0a.css.map",
-    "main.753ab4ef.js.map": "/Test-Portfolio/static/js/main.753ab4ef.js.map"
+    "main.7113151a.css.map": "/Test-Portfolio/static/css/main.7113151a.css.map",
+    "main.7e14015f.js.map": "/Test-Portfolio/static/js/main.7e14015f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.753ab4ef.js"
+    "static/css/main.7113151a.css",
+    "static/js/main.7e14015f.js"
   ]
 }
