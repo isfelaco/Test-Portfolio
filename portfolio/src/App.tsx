@@ -5,12 +5,13 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
+import Projects from "./pages/Projects";
 
 export const pages: { [id: string]: ReactElement } = {
 	"/": <Home />,
 	"/about": <About />,
 	"/experience": <Experience />,
-	// "/projects": <Projects />,
+	"/projects": <Projects />,
 };
 
 export function App() {
