@@ -62,8 +62,9 @@ export function Section(props: Props) {
 	const { title, children } = props;
 	var backIndex: number = 0;
 	var forwardIndex: number = 0;
+	console.log(window.location.pathname);
 	Object.keys(pages).find((route, i) => {
-		if (route === window.location.pathname) {
+		if ("/Test-Portfolio" + route === window.location.pathname) {
 			backIndex = i - 1;
 			forwardIndex = i + 1;
 		}
@@ -78,11 +79,24 @@ export function Section(props: Props) {
 			<Header>
 				<ButtonRow align="left">
 					<Button style="white" to="/" text="Home" />
-					<>{back && <Button style="white" to={lastPage} text="Back" />}</>
+					<>
+						{back && (
+							<Button
+								style="white"
+								to={"/Test-Portfolio" + lastPage}
+								text="Back"
+							/>
+						)}
+					</>
 				</ButtonRow>
 				<PageTitle className="tooltip">{title}</PageTitle>
 				{next ? (
-					<Button style="white" to={nextPage} text="Next" float="right" />
+					<Button
+						style="white"
+						to={"/Test-Portfolio" + nextPage}
+						text="Next"
+						float="right"
+					/>
 				) : (
 					<div></div>
 				)}

@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-// import { NavBar } from "../components/NavBar";
+import NavBar from "../components/NavBar";
 import { Column } from "../SharedStyles";
 
 export const Page = styled.div`
@@ -45,7 +45,7 @@ export default function Home() {
 			<ColumnLeft>
 				<Title>Bella Felaco</Title>
 			</ColumnLeft>
-			{/* <NavBar /> */}
+			<NavBar />
 		</Page>
 	);
 }

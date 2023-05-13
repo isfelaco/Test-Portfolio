@@ -2,7 +2,7 @@ import React from "react";
 import { Section } from "../components/Section";
 import styled from "styled-components";
 import "../App.css";
-// import UVAlogo from "../css/UVA-logo.png";
+import UVAlogo from "../UVA-logo.png";
 import { Column, Row } from "../SharedStyles";
 import emailjs from "emailjs-com";
 import { Button } from "../components/Buttons";
@@ -92,7 +92,7 @@ const EmailForm = styled.form`
 	}
 `;
 
-export function About() {
+export default function About() {
 	emailjs.init("iu8xABUMxkhOBMJVM");
 
 	function sendEmail(e: any) {
@@ -112,7 +112,7 @@ export function About() {
 		<Section title="About">
 			<Row gap={25}>
 				<LeftColumn>
-					{/* <Image src={UVAlogo} alt="logo" /> */}
+					<Image src={UVAlogo} alt="logo" />
 					<EmailForm id="contact-form" onSubmit={sendEmail}>
 						<h2>Send Email</h2>
 						<input type="hidden" name="contact_number" />
