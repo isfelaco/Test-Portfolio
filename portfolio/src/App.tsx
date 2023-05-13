@@ -1,9 +1,15 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Pages/Layout";
-import Home from "./Pages/Home";
-import Blogs from "./Pages/Blogs";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import Experience from "./pages/Experience";
+
+export const pages: { [id: string]: ReactElement } = {
+	// "/about": <About />,
+	"/experience": <Experience />,
+	// "/projects": <Projects />,
+};
 
 export function App() {
 	return (
@@ -12,9 +18,9 @@ export function App() {
 				<Routes>
 					<Route path="/" element={<Layout />}>
 						<Route index element={<Home />} />
-						<Route path="blogs" element={<Blogs />} />
-						{/* <Route path="contact" element={<Contact />} /> */}
-						{/* <Route path="*" element={<NoPage />} /> */}
+						{Object.entries(pages).map(([route, element], i) => (
+							<Route path={route} element={element} key={i} />
+						))}
 					</Route>
 				</Routes>
 			</BrowserRouter>
