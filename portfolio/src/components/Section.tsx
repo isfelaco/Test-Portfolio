@@ -78,7 +78,7 @@ export function Section(props: Props) {
 		<Subpage gap={25}>
 			<Header>
 				<ButtonRow align="left">
-					<Button style="white" to="/" text="Home" />
+					<Button style="white" to="/Test-Portfolio/" text="Home" />
 					<>
 						{back && (
 							<Button
