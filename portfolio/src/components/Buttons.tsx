@@ -1,7 +1,6 @@
 import { ReactElement } from "react";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
-// import "../App.css";
 
 const WhiteButton = styled.button<{ float?: string | undefined }>`
 	background-color: rgb(255, 255, 255, 0.5);

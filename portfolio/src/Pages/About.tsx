@@ -1,7 +1,5 @@
-import React from "react";
 import { Section } from "../components/Section";
 import styled from "styled-components";
-import "../App.css";
 import UVAlogo from "../UVA-logo.png";
 import { Column, Row } from "../SharedStyles";
 import emailjs from "emailjs-com";

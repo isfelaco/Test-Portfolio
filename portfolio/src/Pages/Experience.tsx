@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { Section } from "../components/Section";
 import { Column, Row } from "../SharedStyles";

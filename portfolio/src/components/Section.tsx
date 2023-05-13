@@ -1,6 +1,5 @@
 import React, { ReactNode } from "react";
 import { Button, ButtonRow } from "./Buttons";
-// import "../css/App.css";
 import styled from "styled-components";
 import { Column } from "../SharedStyles";
 import { pages } from "../App";
