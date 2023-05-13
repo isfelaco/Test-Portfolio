@@ -1,4 +1,5 @@
 import { ReactElement } from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 // import "../App.css";
 
@@ -43,8 +44,8 @@ type ButtonProps = {
 export function Button({ style, to, text, float }: ButtonProps) {
 	return (
 		<div>
-			<a
-				href={to}
+			<Link
+				to={to}
 				target={style === "white" ? "_self" : "_blank"}
 				rel="noreferrer"
 			>
@@ -53,7 +54,7 @@ export function Button({ style, to, text, float }: ButtonProps) {
 				) : (
 					<PinkButton>{text}</PinkButton>
 				)}
-			</a>
+			</Link>
 		</div>
 	);
 }
