@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/BellaFelacoPortfolio/static/css/main.a8c872fc.css",
-    "main.js": "/BellaFelacoPortfolio/static/js/main.a288bd91.js",
+    "main.css": "/BellaFelacoPortfolio/static/css/main.e3f0588b.css",
+    "main.js": "/BellaFelacoPortfolio/static/js/main.f83aa7b3.js",
     "static/media/SpaceGrotesk.ttf": "/BellaFelacoPortfolio/static/media/SpaceGrotesk.1036357b9651eff7d3dd.ttf",
     "static/media/UVA-logo.png": "/BellaFelacoPortfolio/static/media/UVA-logo.92c62d61e8c363cc4c21.png",
-    "static/media/background.avif": "/BellaFelacoPortfolio/static/media/background.a319203cee4344e352f3.avif",
     "index.html": "/BellaFelacoPortfolio/index.html",
-    "main.a8c872fc.css.map": "/BellaFelacoPortfolio/static/css/main.a8c872fc.css.map",
-    "main.a288bd91.js.map": "/BellaFelacoPortfolio/static/js/main.a288bd91.js.map"
+    "main.e3f0588b.css.map": "/BellaFelacoPortfolio/static/css/main.e3f0588b.css.map",
+    "main.f83aa7b3.js.map": "/BellaFelacoPortfolio/static/js/main.f83aa7b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8c872fc.css",
-    "static/js/main.a288bd91.js"
+    "static/css/main.e3f0588b.css",
+    "static/js/main.f83aa7b3.js"
   ]
 }
