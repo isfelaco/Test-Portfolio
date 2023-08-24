@@ -6,6 +6,7 @@ export const Page = styled.div`
   display: flex;
   height: 100vh;
   gap: 50px;
+  overflow: auto;
 `;
 export const ColumnLeft = styled(Column)`
   flex: 60%;
