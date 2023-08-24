@@ -15,16 +15,8 @@ const AboutColumn = styled(Column)`
   background: rgb(255, 255, 255, 0.3);
   border: 1px solid white;
   border-radius: 5px;
-
-  height: 100%;
-  width: 100%;
   justify-content: center;
   align-items: center;
-
-  &:hover {
-    border: 0.5px solid #aa4586;
-    background: rgb(255, 255, 255, 0.5);
-  }
 `;
 
 const LeftColumn = styled(AboutColumn)`
@@ -38,6 +30,7 @@ const RightColumn = styled(Column)`
 
 const ColumnInfo = styled(AboutColumn)`
   display: flex;
+  flex: 50%;
   gap: 20px;
   p,
   h1 {

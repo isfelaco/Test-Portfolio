@@ -36,7 +36,6 @@ export default function Projects() {
   return (
     <Section title="Projects">
       <Content>
-        {/* <Row gap={20}> */}
         <ProjectsBox>
           <h1>Date Picker Component</h1>
           <i>Made for OpenGov Inc. in 2022</i>

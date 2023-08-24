@@ -12,6 +12,7 @@ type Props = {
 const Subpage = styled(Column)`
   height: 100%;
   margin: 25px;
+  overflow: auto;
 
   @keyframes fadeIn {
     0% {

@@ -7,10 +7,12 @@ const Content = styled.div`
   flex-direction: column;
   gap: 25px;
   height: 100%;
+  overflow: auto;
 `;
 
 const ExperienceRow = styled(Row)`
   flex: 50%;
+  overflow: auto;
 `;
 
 const ExperienceBox = styled(Column)`
