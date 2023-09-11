@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BellaFelacoPortfolio/static/css/main.e3f0588b.css",
-    "main.js": "/BellaFelacoPortfolio/static/js/main.f83aa7b3.js",
+    "main.js": "/BellaFelacoPortfolio/static/js/main.5bd325c2.js",
     "static/media/SpaceGrotesk.ttf": "/BellaFelacoPortfolio/static/media/SpaceGrotesk.1036357b9651eff7d3dd.ttf",
     "static/media/UVA-logo.png": "/BellaFelacoPortfolio/static/media/UVA-logo.92c62d61e8c363cc4c21.png",
     "index.html": "/BellaFelacoPortfolio/index.html",
     "main.e3f0588b.css.map": "/BellaFelacoPortfolio/static/css/main.e3f0588b.css.map",
-    "main.f83aa7b3.js.map": "/BellaFelacoPortfolio/static/js/main.f83aa7b3.js.map"
+    "main.5bd325c2.js.map": "/BellaFelacoPortfolio/static/js/main.5bd325c2.js.map"
   },
   "entrypoints": [
     "static/css/main.e3f0588b.css",
-    "static/js/main.f83aa7b3.js"
+    "static/js/main.5bd325c2.js"
   ]
 }
