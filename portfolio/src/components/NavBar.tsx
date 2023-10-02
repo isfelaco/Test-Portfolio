@@ -15,7 +15,10 @@ const Link = styled(NavLink)`
   font-weight: bold;
   letter-spacing: 3px;
   text-decoration: none;
-  text-shadow: 1px 1px 0 #ffffff, 1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  text-shadow:
+    1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
 
   @keyframes growSpace {
     0% {
@@ -41,6 +44,7 @@ export default function NavBar() {
       <Link to="/about">About</Link>
       <Link to="/experience">Experience</Link>
       <Link to="/projects">Projects</Link>
+      <Link to="/coursework">Course Work</Link>
     </Nav>
   );
 }
