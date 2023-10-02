@@ -73,6 +73,16 @@ export default function Projects() {
             Link to Repository
           </a>
         </ProjectsBox>
+        <ProjectsBox>
+          <h1>Aspirations vs. Reality in Engineering</h1>
+          <p>
+            For this research project, I worked with a small group to analyze
+            publicly accessible content of websites for engineering schools and
+            departments to compare their curricula to their mission statement.
+            This cumulated in crafting a paper describing our research and
+            displaying our sources.s
+          </p>
+        </ProjectsBox>
       </Content>
     </Section>
   );

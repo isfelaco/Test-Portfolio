@@ -26,14 +26,7 @@ const GridBox = styled.div`
   overflow-y: auto;
   li {
     text-align: left;
-    margin-left: 0px;
-    padding: none;
   }
-`;
-
-const Title = styled.p`
-  font-size: 25px;
-  font-weight: bold;
 `;
 
 export default function Coursework() {
@@ -42,7 +35,7 @@ export default function Coursework() {
       <Content>
         <Grid>
           <GridBox>
-            <Title>Program and Data Representation</Title>
+            <h2>Program and Data Representation</h2>
             <ul>
               <li>
                 Studied how data is represented in computers, from bits to
@@ -54,9 +47,12 @@ export default function Coursework() {
                 sorting algorithms in C++, machine language, or assembly code
               </li>
             </ul>
+            <a href="https://github.com/isfelaco/CS-2150" target="_blank">
+              Link to Repository
+            </a>
           </GridBox>
           <GridBox>
-            <Title>Advanced Software Development Methods</Title>
+            <h2>Advanced Software Development Methods</h2>
             <ul>
               <li>
                 Produced a desktop application using the Django 4 framework on
@@ -76,7 +72,7 @@ export default function Coursework() {
             </ul>
           </GridBox>
           <GridBox>
-            <Title>Internet Scale Applications</Title>
+            <h2>Internet Scale Applications</h2>
             <ul>
               <li>
                 Completed a survey of methods for building large-scale internet
@@ -90,7 +86,7 @@ export default function Coursework() {
             </ul>
           </GridBox>
           <GridBox>
-            <Title>Compilers</Title>
+            <h2>Compilers</h2>
             <ul>
               <li>
                 Collaborated with peers in pairs to undertake a semester-long
@@ -106,9 +102,12 @@ export default function Coursework() {
                 infrastructures, at the core of the clang compiler family
               </li>
             </ul>
+            <a href="https://github.com/UVA-CS4620/sipc-felaco" target="_blank">
+              Link to Repository
+            </a>
           </GridBox>
           <GridBox>
-            <Title>Operating Systems</Title>
+            <h2>Operating Systems</h2>
             <ul>
               <li>
                 Gained hands-on experience with essential operating system
@@ -121,9 +120,12 @@ export default function Coursework() {
                 memory allocation and deallocation mechanisms
               </li>
             </ul>
+            <a href="https://github.com/isfelaco/CS-4414" target="_blank">
+              Link to Repository
+            </a>
           </GridBox>
           <GridBox>
-            <Title>Linear Algebra</Title>
+            <h2>Linear Algebra</h2>
             <ul>
               <li>
                 Explored the applications of matrices in computations and in
@@ -138,7 +140,7 @@ export default function Coursework() {
             </ul>
           </GridBox>
           <GridBox>
-            <Title>Machine Learning</Title>
+            <h2>Machine Learning</h2>
             <ul>
               <li>
                 Developed expertise in handling diverse datasets from multiple
@@ -159,6 +161,58 @@ export default function Coursework() {
                 and recurrent neural networks, using the TensorFlow 2.0 API
               </li>
             </ul>
+          </GridBox>
+          <GridBox>
+            <h2>Data Structures and Algorithms</h2>
+            <ul>
+              <li>
+                Demonstrated proficiency in a wide range of algorithmic
+                techniques, including searching algorithms, shortest path
+                algorithms, greedy algorithms, backtracking, divide-and-conquer
+                strategies, dynamic programming, and machine learning algorithms
+              </li>
+              <li>
+                Developed the ability to analyze and compare algorithm
+                performance using various analysis techniques, including
+                asymptotic worst-case analysis, expected time analysis, and
+                amortized analysis
+              </li>
+              <li>
+                Gained practical knowledge of reductions, which involves
+                transforming one computational problem into another to
+                facilitate problem-solving and complexity analysis
+              </li>
+              <li>
+                Successfully applied algorithmic techniques to real-world
+                problems, fostering critical thinking and problem-solving
+                abilities
+              </li>
+            </ul>
+            <a href="https://github.com/isfelaco/CS-3100" target="_blank">
+              Link to Repository
+            </a>
+          </GridBox>
+          <GridBox>
+            <h2>Computer Architecture</h2>
+            <ul>
+              <li>
+                Developed a deep understanding of computer system organization
+                and architecture, including the design and functionality of key
+                hardware components
+              </li>
+              <li>
+                Explored memory systems and their hierarchical organization,
+                including cache memory, main memory, and secondary storage
+              </li>
+              <li>
+                Studied hardware implementations of virtual memory,
+                understanding the mechanisms for managing memory resources
+                efficiently
+              </li>
+            </ul>
+            <a href="https://github.com/isfelaco/CS-3330" target="_blank">
+              Link to Repository
+            </a>
           </GridBox>
         </Grid>
       </Content>
